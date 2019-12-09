@@ -1,0 +1,46 @@
+.text{
+  font-variant: small-caps;
+  font-stretch: condensed;
+  font-kerning: normal;
+  font-variant-ligatures: normal;
+  font-feature-settings: normal;
+  font-language-override: normal;
+  font-variant-alternates: normal;
+  font-size-adjust: auto;
+  font-size: 30px;
+  font-family: sans-serif;
+  fill:#10DFE1;
+}
+.tick line{
+  opacity: .1;
+}
+.tick text{
+  font-variant: small-caps;
+  font-stretch: condensed;
+  font-kerning: normal;
+  font-variant-ligatures: normal;
+  font-feature-settings: normal;
+  font-language-override: normal;
+  font-variant-alternates: normal;
+  font-size-adjust: auto;
+  font-size: 30px;
+  font-family:serif;
+  color: inherit;
+}
+.path {
+  opacity: .9;
+  fill:steelblue
+}
+
+.line {
+  stroke:blue;
+  stroke-width:12;
+  opacity: .2;
+  fill:none;
+
+}
+
+.circle{
+  fill:steelblue;
+  opacity: 10;
+}
